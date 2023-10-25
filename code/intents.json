@@ -1,0 +1,982 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "heyy",
+                                "whatsup",
+                                "sup",
+                                "hey"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "feeling",
+                        "patterns": [
+                                "How are you?",
+                                "How are you doing"
+                                
+                        ],
+                        "responses": [
+                                "I'm fine thanks for asking!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "sad",
+                        "patterns": [
+                                "I'm not fine",
+                                "I'm sad",
+                                "I am bored"
+                                
+                        ],
+                        "responses": [
+                                
+                                "I hope you feel better soon!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "about",
+                        "patterns": [
+                                "tell me about the college",
+                                "about",
+                                "tell me about vignan",
+                                "accredations",
+                                "top 10"
+                                    ],
+                        "responses": [
+                                
+                                "Our college is ranked 2nd in placements in Telangana,24th in India.Accredited A+ by NAAC"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "environment",
+                        "patterns": [
+                                "How is the college environment",
+                                "college environment",
+                                "is the environment peaceful"
+                                    ],
+                        "responses": [
+                                
+                                "The college is surrounded by trees offering excellent environment to study"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "quality",
+                        "patterns": [
+                                "how is the education quality",
+                                "education quality",
+                                "what is the quality of education"
+                                
+                        ],
+                        "responses": [
+                                
+                                "The departments are equipped with top notch faculty providing excellent education to students."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "vision",
+                        "patterns": [
+                                "What is the vision of college",
+                                "vision",
+                                "whats the vision"
+                                
+                        ],
+                        "responses": [
+                                
+                                "To evolve into a center of excellence in Science & Technology through creative and innovative practices in teaching-learning, promoting academic achievement & research excellence to produce internationally accepted competitive and world class professionals who are psychologically strong and emotionally balanced imbued with social consciousness and ethical values."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "mission",
+                        "patterns": [
+                                "What is the mission of college",
+                                "mission",
+                                "whats the mission"
+                                
+                        ],
+                        "responses": [
+                                
+                                "To provide high quality academic programmes, training activities, research facilities and opportunities supported by continuous industry – institute interaction aimed at employability, entrepreneurship, leadership and research aptitude among students and contribute to the economic and technological development of the region, state and nation."
+                        ],
+                        "context_set": ""
+                },
+
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "see you",
+                                "bye bye",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Bye",
+                                "Have a Good day",
+                                "talk to you later",
+                                "tyyl",
+                                "i got to go",
+                                "gtg"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!",
+                                "Come back soon"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "creator",
+                        "patterns": [
+
+                                "what is the name of your developers",
+                                "what is the name of your creators",
+                                "what is the name of the developers",
+                                "what is the name of the creators",
+                                "who created you",
+                                "your developers",
+                                "your creators",
+                                "who are your developers",
+                                "developers",
+                                "you are made by",
+                                "you are made by whom",
+                                "who created you",
+                                "who create you",
+                                "creators",
+                                "who made you",
+                                "who designed you"
+                        ],
+                        "responses": [
+                                "Batch 8 made me for the mini project",
+                                "19891A1201,19891A1238,19891A1240,19891A1250 made me."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "name",
+                                "your name",
+                                "do you have a name",
+                                "what are you called",
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?",
+                                "what are you",
+                                "who are you",
+                                "who is this",
+                                "what am i chatting to",
+                                "who am i taking to",
+                                "what are you"
+                        ],
+                        "responses": [
+                                "You can call me Vignan BOT!",
+                                "I'm Vignan BOT!",
+                                "My name is Vignan BOT!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "timing of college",
+                                "what is college timing",
+                                "working days",
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation",
+                                "when is the college open",
+                                "college timing",
+                                "what about college timing",
+                                "is college open on saturday",
+                                "tell something about college timing",
+                                "what is the college  hours",
+                                "when should i come to college",
+                                "when should i attend college",
+                                "what is my college time",
+                                "college timing",
+                                "timing college"
+                        ],
+                        "responses": [
+                                "College is open 8:45am-3:45pm Monday-Saturday!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "number",
+                        "patterns": [
+
+                                "more info",
+                                "contact info",
+                                "how to contact college",
+                                "college telephone number",
+                                "college number",
+                                "What is your contact no",
+                                "Contact number?",
+                                "how to call you",
+                                "College phone no?",
+                                "how can i contact you",
+                                "Can i get your phone number",
+                                "how can i call you",
+                                "phone number",
+                                "phone no",
+                                "call"
+                        ],
+                        "responses": [
+                                "You can contact at +91 8008804220 or +91 9866399776"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "course",
+                        "patterns": [
+                                "list of courses",
+                                "list of courses offered",
+                                "list of courses offered in vignan",
+                                "what are the courses offered in your college?",
+                                "courses?",
+                                "courses offered",
+                                "courses offered in vignan",
+                                "courses you offer",
+                                "branches?",
+                                "courses available at vignan?",
+                                "branches available at vignan?",
+                                "what are the courses in vignan?",
+                                "what are branches in vignan?",
+                                "what are courses in vignan?",
+                                "branches available in vignan?",
+                                "can you tell me the courses available in vignan?",
+                                "can you tell me the branches available in vignan?",
+                                "Civil engineering?",
+                                "civil",
+                                "it",
+                                "IT"
+                        ],
+                        "responses": [
+                                "Our college offers 10 B.Tech and 3 M.Tech Courses,For more info <a target=\"_blank\" href=\"https://vignanits.ac.in/admissions/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees",
+                        "patterns": [
+                                "information about fee",
+                                "information on fee",
+                                "tell me the fee",
+                                "college fee",
+                                "fee per semester",
+                                "what is the fee of each semester",
+                                "what is the fees of each year",
+                                "what is fee",
+                                "what is the fees",
+                                "how much is the fees",
+                                "fees for first year",
+                                "fees",
+                                "about the fees",
+                                "tell me something about the fees",
+                                "how to pay fee",
+                                "where to pay fee"
+                        ],
+                        "responses": [
+                                "For Fee details visit <a target=\"_blank\" href=\"https://vignanits.ac.in/admissions/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "where is the college located",
+                                "college is located at",
+                                "where is college",
+                                "where is college located",
+                                "address of college",
+                                "how to reach college",
+                                "college location",
+                                "college address",
+                                "wheres the college",
+                                "how can I reach college",
+                                "whats is the college address",
+                                "what is the address of college",
+                                "address",
+                                "location"
+                        ],
+                        "responses": [
+                                "Vignan Institute of technology and science,near Ramoji film city, Deshmuki Village, Yadadri, Bhuvanagiri, Telangana 508284 <a target=\"_blank\" href=\"https://goo.gl/maps/TMo1JUgzf59mgeCK6\"> here</a> "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hostel",
+                        "patterns": [
+                                "hostel facility",
+                                "hostel servive",
+                                "hostel location",
+                                "hostel address",
+                                "hostel facilities",
+                                "hostel fees",
+                                "Does college provide hostel",
+                                "Is there any hostel",
+                                "Where is hostel",
+                                "do you have hostel",
+                                "do you guys have hostel",
+                                "hostel",
+                                "hostel capacity",
+                                "what is the hostel fee",
+                                "how to get in hostel",
+                                "what is the hostel address",
+                                "how far is hostel from college",
+                                "hostel college distance",
+                                "where is the hostel",
+                                "how big is the hostel",
+                                "distance between college and hostel",
+                                "distance between hostel and college",
+                                "does the college have a hostel"
+                        ],
+                        "responses": [
+                                "The College has campus attached spacious hostel which provides pleasant stay at affordable fee.We serve Delicious and Nutritious food under the best hygienic conditions and in a spacious Dining Hall.<br> For more info <a target=\"_blank\" href=\"https://vignanits.ac.in/facilities/#Hostel\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "event",
+                        "patterns": [
+                                "events organised",
+                                "list of events",
+                                "list of events organised in college",
+                                "list of events conducted in college",
+                                "What events are conducted in college",
+                                "Are there any event held at college",
+                                "Events?",
+                                "functions",
+                                "what are the events",
+                                "tell me about events",
+                                "what about events"
+                        ],
+                        "responses": [
+                                "Many cultural fests, Technical Events, Social Events are conducted in the college. For information about events, click <a target=\"_blank\" href=\"https://vignanits.ac.in/what-type-of-college-events-does-vignan-institute-host/\"> here "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "document",
+                        "patterns": [
+                                "document to bring",
+                                "documents needed for admision",
+                                "documents needed at the time of admission",
+                                "documents needed during admission",
+                                "documents required for admision",
+                                "documents required at the time of admission",
+                                "documents required during admission",
+                                "What document are required for admission",
+                                "Which document to bring for admission",
+                                "documents",
+                                "what documents do i need",
+                                "what documents do I need for admission",
+                                "documents needed"
+                                
+                        ],
+                        "responses": [
+                                "Candidates must have passed Class 10+2 exam from a recognised board with Physics, Chemistry and Mathematics as core subjects. To know more about document required visit <a target=\"_blank\" href=\"https://vignanits.ac.in/admissions/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "floors",
+                        "patterns": [
+                                "size of campus",
+                                "building size",
+                                "How many floors does college have",
+                                "floors in college",
+                                "floors in college",
+                                "how tall is Vignan college building",
+                                "floors"
+                        ],
+                        "responses": [
+                                "Vignan Institute of Technology and science has 5 floors.",
+                                "Vignan Institute of Technology & Science, Deshmukhi, one of the best in Hyderabad, offers a well-designed building built across the 3600 acres of beautiful surroundings that include mango groves, watersheds, bushes and so much greenery that it will add to the students' amazing experience and enhance the mood."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "syllabus",
+                        "patterns": [
+                                "Syllabus for IT",
+                                "what is the Information Technology syllabus",
+                                "syllabus",
+                                "timetable",
+                                "what is IT syllabus",
+                                "syllabus",
+                                "What is next lecture"
+                        ],
+                        "responses": [
+                                "To know about syllabus and timetable visit <a target=\"_blank\" href=\"https://vignanits.ac.in/academics/course-materials/civil-engineering/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "library",
+                        "patterns": [
+                                "is there any library",
+                                "library facility",
+                                "library facilities",
+                                "do you have library",
+                                "does the college have library facility",
+                                "college library",
+                                "where can i get books",
+                                "book facility",
+                                "Where is library",
+                                "Library",
+                                "Tell me about library",
+                                "how many libraries",
+                                "Does the college have a library"
+                        ],
+                        "responses": [
+                                "VIGNANA DHARA, the Central library, has been built to International Standards, Spreads over to two floors with an area of 1670 sq.m. It is centrally air-conditioned. Specialized collections of Books, Journals & Non-book materials are available in Basic Sciences, Engineering and Technology, Humanities and Social Sciences.<br>For more info <a target=\"_blank\" href=\"https://vignanits.ac.in/facilities/#VignanDhara\"> here</a> click"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "infrastructure",
+                        "patterns": [
+                                "how is college infrastructure",
+                                "infrastructure",
+                                "college infrastructure"
+                        ],
+                        "responses": [
+                                "Vignan Institute of Technology and Science has top notch infrastructure, for more info <a target=\"_blank\" href=\"https://vignanits.ac.in/facilities/other-facilities/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "canteen",
+                        "patterns": [
+                                "food facilities",
+                                "canteen facilities",
+                                "canteen facility",
+                                "is there any canteen",
+                                "Is there a cafetaria in college",
+                                "Does college have canteen",
+                                "Where is canteen",
+                                "where is cafetaria",
+                                "canteen",
+                                "Cafetaria",
+                                "does the college have a canteen"
+                        ],
+                        "responses": [
+                                "VGNT has the facility of a spacious and clean canteen that caters to the taste of all students.For more info <a target=\"_blank\" href=\"https://vignanits.ac.in/facilities/#Cafeteria\"> here</a>"
+
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "menu",
+                        "patterns": [
+                                "food menu",
+                                "food in canteen",
+                                "Whats there on menu",
+                                "what is available in college canteen",
+                                "what foods can we get in college canteen"
+                        ],
+                        "responses": [
+                                "for canteen info <a target=\"_blank\" href=\"https://vignanits.ac.in/facilities/#Cafeteria\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "placement",
+                        "patterns": [
+                                "What is college placement",
+                                "Which companies visit in college",
+                                "What is average package",
+                                "companies visit",
+                                "package",
+                                "placement",
+                                "recruitment",
+                                "companies",
+                                "How many companies visited the college"
+                        ],
+                        "responses": [
+                                "The credo of the Training and Placement department is to incorporate a wide range of relevant learning opportunities that support and develop students at different stages of their academics. To know about placement visit <a target=\"_blank\" href=\"https://vignanits.ac.in/placements/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "it hod",
+                        "patterns": [
+                                "Who is IT HOD",
+                                "Who is the hod of it",
+                                "it hod",
+                                "name of it hod",
+                                "hod it"
+                        ],
+                        "responses": [
+                                "Prof. B.V Chowdary is the HOD of IT."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "cse hod",
+                        "patterns": [
+                                "Who is cse HOD",
+                                "Who is the hod of cse",
+                                "cse hod",
+                                "name of cse hod",
+                                "cse it"
+                        ],
+                        "responses": [
+                                "Dr. G Raja Vikram is the HOD of CSE."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "it_faculty",
+                        "patterns": [
+                                "list the it faculty",
+                                "it faculty list",
+                                "give me it faculty list",
+                                "i need it faculty list",
+                                "send me it faculty list",
+                                "show it faculty list",
+                                "information technology"
+
+                        ],
+                        "responses": [
+                                "Here's the faculty information of Information Technology!<br>Mr. B.V Chowdary<br>Mr. M. Prabhakar <br>Mr. K. Siva Rama Krishna <br>Mr. Sk. Khaleelullah <br>Mrs. G. Sirisha <br>Mrs. Punna Srilatha <br>Mrs. T. Swathi <br>Mr. D. Chaitanya <br>Mr. G. Chanakya <br>Mr. Shiva Kumar Dora <br>Mr. B. Uday Kumar <br>Mr. Y. Gnendra Prasad <br>Mr. V Kantlamaiah<br> <a target=\"_blank\" href=\"https://vignanits.ac.in/it/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "cse_faculty",
+                        "patterns": [
+                                "list the cse faculty",
+                                "cse faculty list",
+                                "give me cse faculty list",
+                                "i need cse faculty list",
+                                "send me cse faculty list",
+                                "show cse faculty list",
+                                "computer science"
+                        ],
+                        "responses": [
+                                "Here's the faculty information of Computer Science and Engineering!<br>Dr. G. Raja Vikram <br>Dr N Phani Kumar <br>Dr. J Rethna Virgil Jeny <br>Mr. B.V.Chowdary <br>Dr. O. Sree Nagesh <br>Dr. G Janardhan <br>Dr. Laxmi Kanth <br>Mr. R. Praveen Kumar <br>Mr. B. Ravi Krishna <br>Mr. N.Sri.Anjaneya <br>Mrs. P. Lavanya Kumari <br>Mr. S. Kranthi Reddy <br>Mrs. R Akshara <br>Mr. B srinu <br>Mrs. Sharmila B <br>Mrs. Y Swapna <br>Mr. Ravindar L C <br>Mr. N Nagarjuna <br>Mr. R Mahesh <br>Mr. R. Ramlinga chary <br>Mrs. A. Hima bindu <br>Ms. K. Shiva latha <br>Mrs. ARNV Naga suneetha <br>Mr. N. Kutumba Rao <br>Ms. K. Sudha Reddy <br>Mr. P. Kiran Kumar <br>Ms. B. Ramya <br>Mr. Thirumal Reddy <br>Ms. Lakshmi Anusha <br>Ms. M. Shanthi <br>Ms. Soujanya goud <br>Ms. Manne Archana <br>Mr. Belde Prasad Yadav <br>Ms. Sameena Parveen <br>Mr. B. Raghavendra <br>Ms. M. Silparaj <br>Mr. S. Nanda Kishore <br>Mr. Chaitanya Kumar Repalle <br>Ms. Sasikala Rasamsetty <br>Mr. Cheruvukommu Sateesh <br>Mr. M. Nageshwar <br>Mrs. Kurapati Praveena <br>Mr. A. Vivek Reddy <br>Ms. K. Deepthi <br>Mrs. Saritha Mahankali <br>Mr. K. Srinivas <br>Mr, P. Ranjith Goud <br>Mrs. K Sukeerthi <br>Mr. Shafi ahmed <br>Mr.Dondi Krishna Prasad <br>Mr. Challa Naresh <br>Ms. Sandhya<br> <a target=\"_blank\" href=\"https://vignanits.ac.in/academics/departments/computer-science-engineering/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "mech_faculty",
+                        "patterns": [
+                                "list the mech faculty",
+                                "mech faculty list",
+                                "give me mech faculty list",
+                                "i need mech faculty list",
+                                "send me mech faculty list",
+                                "show mech faculty list",
+                                "mechanical"
+                        ],
+                        "responses": [
+                                "Here's the faculty information of Mechanical Engineering!<br>Prof. N. Leela Prasad <br>Dr. K. Chandra Shekar <br>Dr. 8. Singaravel <br>Prof. G. Narender <br>Dr. K. Mangapathi Rao <br>Prof. G.VRao <br>Dr. A Kiran Kumar <br>Dr. B. Chakradhar <br>Dr. Ch. Anusha <br>Mrs. M. Radhika <br>Mrs. CH. Diwa <br>Mr. P. Sadanandam <br>Ms. Madhavi Polepalli <br>Mr. V. Guru Shankar <br>Mr. R. Eshwaraiah <br>Mr. M. Ashok <br>Mr. A. Venkat Ram Reddy <br>Mr. A. Naresh <br>Mr. Anupkumar Jana <br>Mr. Sarat Chandra Mohanty <br>Mrs. CH Sai Krupa <br>Mr. S Surappa <br>Mr. R Srikanth <br>Mr. V. Suresh <br>Mr. K. Suman Reddy <br>Mr. N. Chandra shekar <br>Mr. K. Ravindra Reddy <br>Mr. Kriti Prakash<br> <a target=\"_blank\" href=\"https://vignanits.ac.in/academics/departments/mechanical-engineering/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "civil_faculty",
+                        "patterns": [
+                                "list the civil faculty",
+                                "civil faculty list",
+                                "give me civil faculty list",
+                                "i need civil faculty list",
+                                "send me civil faculty list",
+                                "show civil faculty list"
+                        ],
+                        "responses": [
+                                "Here's the faculty information of Civil Engineering!<br>Dr.D.Soundar Rajan<br>Dr. Narayan Sangam<br>Mrs.B.Lavanya<br>Mr.T.Karthik<br>Mr.B.Mahesh<br>Mr.Kastro Kiran<br>Mr.J.Naresh<br>Mr.M.Jayaram<br>Ms.T.Thanushitha<br>Ms.Ch.Rita Rani<br> Mr.Lokesh<br>Mr. J.Jitendra<br>   <a target=\"_blank\" href=\"https://vignanits.ac.in/academics/departments/civil-engineering/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "eee_faculty",
+                        "patterns": [
+                                "list the eee faculty",
+                                "eee faculty list",
+                                "give me eee faculty list",
+                                "i need eee faculty list",
+                                "send me eee faculty list",
+                                "show eee faculty list",
+                                "electrical and electronics engineering"
+
+                        ],
+                        "responses": [
+                                "Here's the faculty information of Electrical and Electronics Engineering!<br>Dr.T.Rama Subba Reddy<br>Dr D Suresh <br> Dr B Prakeeraiah <br> Dr.G Yallappa <br>Mr.R.Ramanjan Prasad <br>Mrs.G.Sravanthi<br> <a target=\"_blank\" href=\"https://vignanits.ac.in/academics/departments/electrical-and-electronics-engineering/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+
+                {
+                        "tag": "aiml_faculty",
+                        "patterns": [
+                                "list the aiml faculty",
+                                "aiml faculty list",
+                                "give me aiml faculty list",
+                                "i need aiml faculty list",
+                                "send me aiml faculty list",
+                                "show aiml faculty list",
+                                "ai&ml",
+                                "artificial intelligence and machine learning"
+                        ],
+                        "responses": [
+                                "Here's the faculty information of Artificial intelligence and Machine Learning Department!<br>Dr. K. Ramakrishna Reddy <br>Dr. Manoj Kumar Mahto <br>Mr. H. Shiva Kumar <br>Ms. K. Sandya <br>Mr. Vasudeva Chary <br>Mr. M. Praveen <br>Mr. K.Krishna Chaitanya <br>Mr. T. Santhosh Kumar <br>Mr. K. Praveen Kumar <br>Mr. D. Vijay Kumar <br>Mr. N. Purandhar <br>Ms. M. Anjali Reddy <br>Mr. K. Kumara Swamy<br> <a target=\"_blank\" href=\"https://vignanits.ac.in/artificial-intelligence-and-machine-learning/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "data science_faculty",
+                        "patterns": [
+                                "list the data science faculty",
+                                "data science faculty list",
+                                "give me data science faculty list",
+                                "i need data science faculty list",
+                                "send me data science faculty list",
+                                "show data science faculty list"
+                        ],
+                        "responses": [
+                                "Here's the faculty information of Data Science Department!<br>Dr. B. Prakash <br>Mr. V. Raja Shekar <br>MS. G. sruthi <br>Ms. B. Kalyani <br>Ms. A. Prakarshini<br> <a target=\"_blank\" href=\"https://vignanits.ac.in/data-science/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "eie_faculty",
+                        "patterns": [
+                                "list the eie faculty",
+                                "eie faculty list",
+                                "give me eie faculty list",
+                                "i need eie faculty list",
+                                "send me eie faculty list",
+                                "show eie faculty list",
+                                "Electronics Instrumentation Engineering"
+                        ],
+                        "responses": [
+                                "Here's the faculty information of Electronics Instrumentation Engineering!<br>Mr. CH.v.B.Aditya <br>Dr. M. Vasu Babu <br>Dr. S. Prasanna <br>Mr. K. Premsagar <br>Mrs. Prashanthi Reddy <br>Mr. P. Srinivas <br>Mr. T. Janardhan <br>Mrs. T. Swathi <br>Ms. Vijayalaxmi <br>Mr. Rahul rao <br> <a target=\"_blank\" href=\"https://vignanits.ac.in/academics/departments/electronics-instrumentation-engineering/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "ece_faculty",
+                        "patterns": [
+                                "list the ece faculty",
+                                "ece faculty list",
+                                "give me ece faculty list",
+                                "i need ece faculty list",
+                                "send me ece faculty list",
+                                "show ece faculty list",
+                                "Electronics and Communication Engineering"
+                        ],
+                        "responses": [
+                                "Here's the faculty information of Electronics and Communication Engineering!<br>Dr. N Dinesh Kumar <br>Dr. P.A.Harshavardhini <br>Dr. J.Venkateswara Rao <br>Dr. CH. Subrahmanyam <br>Dr. Shiddanna Gouda <br>Dr. P. Sandeep <br>Dr. Kaleel Ullah Khan <br>Dr. Khaja Mujabuddin <br>Dr. Sarin Vijay Mythri <br>Prof. T. Jagan Mohan Rao <br>Prof. A. Bhagavathi Rao <br>Mr. K. Yadaiah <br>Mrs. N. Koteswaramma <br>Mr. Vikas Kumar Tiwari <br>Mr. K R Anudeep Lakshmi Kanth <br>Mrs. R. Swapna <br>Mr. Vuyyala Shankar <br>Mr. Potta Srinivasu <br>Mr. Mennaiah Batta <br>Mrs. R B Kalyani <br>Mr. CH Sudhakar <br>Mr. A Dhanaraju <br>Mr. N. Raju <br>Ms. A. Navya <br>Mr. K. Vittal <br>Ms. B. Kalyani <br>Ms. R. Sunitha <br>Ms. T. Rajeswari <br>Mr. E. Nagaraju <br>Ms. Aparna <br>Ms. Amulya <br>Mr. Y. Satish <br>Mr. Md. Abdul Raqeeb <br>Mr. Rajan Manduri <br>Ms. B. Mounika <br>Mr. A. Srinivasa Reddy <br>Mr. U Srinivas <br>Mr. Ranjith Kumar G <br>Mrs. N. Ashwini<br> <a target=\"_blank\" href=\"https://vignanits.ac.in/academics/departments/electronics-and-communication-engineering/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "bsh_faculty",
+                        "patterns": [
+                                "list the bsh faculty",
+                                "bsh faculty list",
+                                "give me bsh faculty list",
+                                "i need bsh faculty list",
+                                "send me bsh faculty list",
+                                "show bsh faculty list",
+                                "Basic Sciences and Humanities Department"
+                        ],
+                        "responses": [
+                                "Here's the faculty information of Basic Sciences and Humanities Department!<br>Dr. R. Balaji <br>Dr. V. Vasanth Kumar <br>Dr. R. Sridhar <br>Dr. M. Chandra Shekar <br>Mr. B. Mukesh Chandra <br>Mr. J.A.Kiran <br>Dr. Chennakesavaiah <br>Dr. CH. Vijaya Bhaskar <br>Dr. V.V. Seshagiri Rao <br>Dr. Omeshwar Reddy <br>Mr. H. Avinash <br>Mr. M. Satish <br>Mr. G. Manendar <br>Mr. N. Shyam sundar Reddy <br>Mrs. C. Srilakshmi <br>Mr. Nagaraju Vellanki <br>Dr. G.Y.Sagar <br>Dr. P. Govind Chowdary <br>Dr. V. Lakshmi Prasanna <br>Mr. K. Bharath Simha reddy <br>Mr. K. Manohar <br>Mr.B Ramana Reddy <br>Mr. Hussain shaik <br>Dr. B. Chandra Shekar <br>Dr. V. Ashok Kumar <br>Mr. K. Chandra Shekar <br>Mrs. G. Saritha Reddy <br>Ms. A. Aparna <br>Mr. 8. Aga Reddy <br>Dr. M. Sree ramu <br>Dr. N. Roopa <br>Mr. Y. Venkata Rao <br>Mr. 8. Venkatesh <br>Mrs. Tripura N <br>Mr. T. Yadaiah <br>Mr. Ch. Srinivasa Rao <br>Mr. N. Bhaskarachary <br>Mrs. M. Padmavathi <br>Ms. J. Jayalakshmi <br>Ms. Ch. Hima Bindu <br> <a target=\"_blank\" href=\"https://vignanits.ac.in/basic-sciences-humanities-1/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "ceo",
+                        "patterns": [
+                                "Who is the ceo of the college",
+                                "Who is ceo",
+                                "who ceo",
+                                "name of ceo"
+                        
+                        ],
+                        "responses": [
+                                "Mr. Shravan Boyapati is the CEO of the college."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "principal",
+                        "patterns": [
+                                "what is the name of principal",
+                                "what is the principal name",
+                                "principal name",
+                                "Who is college principal",
+                                "Where is principal's office",
+                                "principal",
+                                "name of the principal"
+                        ],
+                        "responses": [
+                                "Dr.G.Durga Sukumar is college principal,he is available at the Ground floor."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "sem",
+                        "patterns": [
+                                "exam dates",
+                                "exam schedule",
+                                "When is semester exam",
+                                "Semester exam timetable",
+                                "sem",
+                                "semester",
+                                "exam",
+                                "when is exam",
+                                "exam timetable",
+                                "exam dates",
+                                "when is semester",
+                                "academic calendar"
+                        ],
+                        "responses": [
+                                "Here is the Academic Calendar  <a target=\"_blank\" href=\"https://vignanits.ac.in/academics/examinations/\">click here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "admission",
+                        "patterns": [
+                                "what is the process of admission",
+                                "what is the admission process",
+                                "How to take admission in your college",
+                                "What is the process for admission",
+                                "admission",
+                                "admission process",
+                                "how to get admission",
+                                "how to get admitted"
+                        ],
+                        "responses": [
+                                "Application can also be submitted online through the college  <a target=\"_blank\" href=\"https://vignanits.ac.in/admissions/\">website</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "facilities",
+                        "patterns": [
+                                "What facilities college provide",
+                                "College facility",
+                                "What are college facilities",
+                                "facilities",
+                                "facilities provided",
+                                "what are the facilities provided by the college"
+                        ],
+                        "responses": [
+                                "Vignan provides fully Air Conditioned Lab with internet connection, smart classroom, Auditorium, library,canteen,hostel<br>for more information click<a target=\"_blank\" href=\"https://vignanits.ac.in/facilities/#VignanDhara\"> here</a>"
+                                
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "college intake",
+                        "patterns": [
+                                "max number of students",
+                                "number of seats per branch",
+                                "number of seats in each branch",
+                                "maximum number of seats",
+                                "maximum students intake",
+                                "What is the college intake",
+                                "how many stundent are taken in each branch",
+                                "seat allotment",
+                                "seats"
+                        ],
+                        "responses": [
+                                "the intake can be viewed <a target=\"_blank\" href=\"https://vignanits.ac.in/admissions/\"> here</a>"
+                                
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "committee",
+                        "patterns": [
+                                "what are the different committe in college",
+                                "different committee in college",
+                                "Are there any committee in college",
+                                "Give me committee details",
+                                "committee",
+                                "how many committee are there in college",
+                                "what are the clubs "
+                        ],
+                        "responses": [
+                                "There are various committe in college you can see at  <a target=\"_blank\" href=\"https://vignanits.ac.in/clubs/\">here</a> "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "random",
+                        "patterns": [
+                                
+                                "I love you",
+                                "Will you marry me",
+                                "Do you love me"
+                        ],
+                        "responses": [
+                                "Sorry i didn't get that, mail your enquiry here,info@vignanits.ac.in "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "swear",
+                        "patterns": [
+                            
+                                "shut up",
+                                "hell",
+                                "stupid",
+                                "idiot"
+                                
+                                
+                        ],
+                        "responses": [
+                                "please use appropriate language",
+                                "Maintaining decency would be appreciated"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "vacation",
+                        "patterns": [
+                                "holidays",
+                                "when will semester starts",
+                                "when will semester end",
+                                "when is the holidays",
+                                "list of holidays",
+                                "about vacations",
+                                "about holidays",
+                                "When is vacation",
+                                "When is holidays",
+                                "how long will be the vacation"
+                        ],
+                        "responses": [
+                                "Please refer academic calendar <a target=\"_blank\" href=\"https://vignanits.ac.in/academics/academic-calenders/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "salutaion",
+                        "patterns": [
+                                "okk",
+                                "okie",
+                                "nice work",
+                                "well done",
+                                "good job",
+                                "thanks for the help",
+                                "Thank You",
+                                "its ok",
+                                "Thanks",
+                                "k",
+                                "ok",
+                                "okay"
+                        ],
+                        "responses": [
+                                "I am glad I helped you",
+                                "welcome, anything else i can assist you with?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "task",
+                        "patterns": [
+                                "what can you do",
+                                "what are the thing you can do",
+                                "things you can do",
+                                "what can u do for me",
+                                "how u can help me",
+                                "why i should use you"
+                        ],
+                        "responses": [
+                                "I can answer your questions regarding Vignan college",
+                                "You can ask me questions regarding Vignan college, and i will try to answer them"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag":"ragging",
+                        "patterns":[
+                                "ragging",
+                                "is ragging practice active in college",
+                                "does college have any antiragging facility",
+                                "is there any ragging cases",
+                                "is ragging done here",
+                                "ragging juniors",
+                                "ragging history",
+                                "ragging incidents",
+                                "is ragging allowed",
+                                "does the college have anti-ragging policies"
+                                
+                        ],
+                        "responses": [
+                                "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+                        ]
+
+                },
+                {
+                        "tag":"hod",
+                        "patterns":[
+                                "hod",
+                                "hod name",
+                                "who is the hod"
+                        ],
+                        "responses":[
+                                "HODs differ for each branch, please be more specific like: (HOD it)"
+                        ],
+                        "context_set": ["it hod","cse hod"]
+                },
+                {
+                        "tag":"chairman",
+                        "patterns":[
+                                "who is the chairman",
+                                "name of the chairman",
+                                "who's the chairman of the college"
+                        ],
+                        "responses":[
+                                "Dr. L. Rathaiah is the chairman of the college."
+                        ]
+                },
+                {
+                        "tag":"transport",
+                        "patterns":[
+                                "bus route",
+                                "mode of transportation",
+                                "how to get to college",
+                                "buses for college",
+                                "college buses",
+                                "bus routes",
+                                "list of buses for travelling",
+                                "i want transportation details",
+                                "send me transport details",
+                                "transport"
+                                
+                                
+                        ],
+                        "responses":[
+                                "College is providing transport facility to the students from various points in Hyderabad. College is running 40+ buses covering all points in Hyderabad.<a target=\"_blank\" href=\"https://vignanits.ac.in/facilities/#Transportation\"> here</a>"
+
+                        ]
+                }
+                
+                
+        ]
+}
